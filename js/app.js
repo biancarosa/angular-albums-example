@@ -3,7 +3,7 @@
 // Declare app level module which depends on filters, and services
 
 angular.module('myApp', [
-  'myApp.controllers', 'ngRoute'
+  'myApp.controllers', 'myApp.directives', 'ngRoute'
 ]).
 config(function ($routeProvider, $locationProvider) {
   $routeProvider.
@@ -14,5 +14,5 @@ config(function ($routeProvider, $locationProvider) {
     otherwise({
       redirectTo: '/'
     });
-    
+
 });

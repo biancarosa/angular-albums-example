@@ -1,14 +1,11 @@
+
+/*
+==========================================================================
+  Layout definitions
+==========================================================================
+*/
 body {
   font-family: 'Slabo 27px', serif;
-}
-
-.header-menu {
-  background-color: #703781;
-}
-
-.header-menu a {
-  color: #ffffff;
-  font-weight: bolder;
 }
 
 .content-wrapper {
@@ -19,6 +16,41 @@ body {
   background-color: #703781;
 }
 
+/*
+==========================================================================
+  Header
+==========================================================================
+*/
+.header-menu {
+  background-color: #703781;
+}
+
+.header-menu a {
+  color: #ffffff;
+  font-weight: bolder;
+}
+
+/*
+==========================================================================
+  Albums definitions
+==========================================================================
+*/
 .album {
   text-align: center;
+}
+
+/*
+==========================================================================
+  Spinner definitions
+==========================================================================
+*/
+div.atebits-loader {
+  margin-top: 25%;
+}
+
+img.spinner-show{
+   display: block;
+}
+img.spinner-hide{
+  display: none;
 }
